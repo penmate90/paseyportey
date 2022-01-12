@@ -1,0 +1,41 @@
+<Html> 
+    <head><title>Passport Registration</title>  <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script></head>
+    <body topmargin="50" leftmargin="50">
+    <center>
+    <h1 > Online Passport Registration Form </h1>
+    <h2  id="succes"> </h2>
+    <br> <br>
+    <form>
+    First Name: 
+    <input type="text" >
+    <br><br>
+    Last Name: 
+    <input type="text" >
+    <br><br>
+    Full Adresss:
+    <input type="text" >
+    <br><br>
+    Contact details:
+    <input type="text" >
+    <br><br>
+    Gender:
+    <input type="radio" value="Male">Male 
+    
+    <input type="radio"  value="FeMale">Female <br><br>
+Picture:
+    <div id="camera" ></div>
+
+<br>
+
+<input id= "picture" onclick="pic()" type="button" value="Take Picture"> 
+ <br> <br>
+
+   
+
+    </form>
+    <input  onclick="submit()" type="button" value="Submit"> 
+</center>
+    </body>
+    <script src=cam.js> </script>
+    </html>

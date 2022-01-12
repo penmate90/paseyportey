@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(6, 6, 68);
+    color: rgb(255, 255, 255);
+}
+
+
+#camera{
+    height: 282px;
+    width: 282px;
+border: solid;
+background-color: cornsilk;
+}
+
+
+#picture{
+    background-color: rgb(168, 248, 122);
+}
